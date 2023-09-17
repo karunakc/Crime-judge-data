@@ -4,10 +4,9 @@
 - CaseAnalysis.ipynb : Data Analysis of the case_[year].csv files. Also uses the judges_clean.csv to get combined insights.
 - Classification.ipynb : Data sampling, preprocessing, and comparison of 4 different classification models for the classification problem considered.
 
-In order to run the files, ensure all the
+In order to run the files, ensure all files and the dataset are in the same directory tree as below (or change the file path in the code to run). Run all the cells in the ipynb notebook to get the output.
 
 
-Directory Structure
 ```bash
 ├── JudgesAnalysis.ipynb
 ├── CaseAnalysis.ipynb
