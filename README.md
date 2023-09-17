@@ -22,7 +22,7 @@ Directory Structure
 │   ├── cases_2014.csv
 │   ├── cases_2015.csv
 │   ├── cases_2016.csv
-|   ├── cases_2017.csv
+│   ├── cases_2017.csv
 │   └── cases_2018.csv
 └──keys
 │   ├── act_key.csv
@@ -32,7 +32,7 @@ Directory Structure
 │   ├── disp_name_key.csv
 │   ├── judge_case_merge_key.csv
 │   ├── purpose_name_key.csv
-|   ├── section_key.csv
+│   ├── section_key.csv
 │   └── type_name_key.csv
 ```
 
