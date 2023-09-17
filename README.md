@@ -9,9 +9,9 @@ Dataset Hierarchy:
 - judges_clean.csv
 - acts_sections.csv
 - key
--       csv files to link with other csv files or to get further insights of the column which have only id and no other details
+        csv files to link with other csv files or to get further insights of the column which have only id and no other details
 - cases
--       cases_[year].csv
+        cases_[year].csv
 
 
 Lanugage: Python
