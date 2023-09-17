@@ -4,14 +4,37 @@
 - CaseAnalysis.ipynb : Data Analysis of the case_[year].csv files. Also uses the judges_clean.csv to get combined insights.
 - Classification.ipynb : Data sampling, preprocessing, and comparison of 4 different classification models for the classification problem considered.
 
+In order to run the files, ensure all the
 
-Dataset Hierarchy:
-- judges_clean.csv
-- acts_sections.csv
-- key
-        csv files to link with other csv files or to get further insights of the column which have only id and no other details
-- cases
-        cases_[year].csv
+
+Directory Structure
+```bash
+├── JudgesAnalysis.ipynb
+├── CaseAnalysis.ipynb
+├──Classification.ipynb
+├──judges_clean.csv
+├──acts_sections.csv
+├──cases
+│   ├── cases_2010.csv
+│   ├── cases_2011.csv
+│   ├── cases_2012.csv
+│   ├── cases_2013.csv
+│   ├── cases_2014.csv
+│   ├── cases_2015.csv
+│   ├── cases_2016.csv
+|   ├── cases_2017.csv
+│   └── cases_2018.csv
+└──keys
+│   ├── act_key.csv
+│   ├── cases_court_key.csv
+│   ├── cases_district_key.csv
+│   ├── cases_state_key.csv
+│   ├── disp_name_key.csv
+│   ├── judge_case_merge_key.csv
+│   ├── purpose_name_key.csv
+|   ├── section_key.csv
+│   └── type_name_key.csv
+```
 
 
 Lanugage: Python
